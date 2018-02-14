@@ -1,4 +1,4 @@
-package jjsevi.junitand.mockito;
+package jjsevi.junitand.mockito.basic;
 
 public class GreetingImpl implements Greeting {
 
