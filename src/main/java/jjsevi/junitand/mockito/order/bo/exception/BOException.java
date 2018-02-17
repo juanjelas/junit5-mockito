@@ -1,4 +1,4 @@
-package jjsevi.junitand.mockito.bo.exception;
+package jjsevi.junitand.mockito.order.bo.exception;
 
 import java.sql.SQLException;
 

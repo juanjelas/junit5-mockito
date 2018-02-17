@@ -1,8 +1,6 @@
-package jjsevi.junitand.mockito;
+package jjsevi.junitand.mockito.basic;
 
 
-import jjsevi.junitand.mockito.basic.Greeting;
-import jjsevi.junitand.mockito.basic.GreetingImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
@@ -25,6 +23,11 @@ class GreetingImplTest {
         assertEquals("Hello Junit", result);
     }
 
+    /**
+     * Testing exceptions
+     *
+     * @throws Exception
+     */
     @Test
     void greetShlouldThrowAnException_For_NameIsNull() throws Exception {
         Executable exceptionTest = () -> greeting.greet(null);

@@ -1,8 +1,8 @@
-package jjsevi.junitand.mockito.bo;
+package jjsevi.junitand.mockito.order.bo;
 
 
-import jjsevi.junitand.mockito.bo.exception.BOException;
-import jjsevi.junitand.mockito.dto.Order;
+import jjsevi.junitand.mockito.order.bo.exception.BOException;
+import jjsevi.junitand.mockito.order.dto.Order;
 
 public interface OrderBO {
 

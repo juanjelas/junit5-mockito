@@ -1,4 +1,4 @@
-package jjsevi.junitand.mockito;
+package jjsevi.junitand.mockito.mockitoExtension;
 
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.ParameterContext;

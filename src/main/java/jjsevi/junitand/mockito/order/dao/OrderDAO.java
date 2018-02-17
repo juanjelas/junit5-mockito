@@ -1,6 +1,6 @@
-package jjsevi.junitand.mockito.dao;
+package jjsevi.junitand.mockito.order.dao;
 
-import jjsevi.junitand.mockito.dto.Order;
+import jjsevi.junitand.mockito.order.dto.Order;
 
 import java.sql.SQLException;
 

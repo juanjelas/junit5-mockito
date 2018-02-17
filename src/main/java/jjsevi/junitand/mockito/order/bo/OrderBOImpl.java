@@ -1,8 +1,8 @@
-package jjsevi.junitand.mockito.bo;
+package jjsevi.junitand.mockito.order.bo;
 
-import jjsevi.junitand.mockito.bo.exception.BOException;
-import jjsevi.junitand.mockito.dao.OrderDAO;
-import jjsevi.junitand.mockito.dto.Order;
+import jjsevi.junitand.mockito.order.bo.exception.BOException;
+import jjsevi.junitand.mockito.order.dao.OrderDAO;
+import jjsevi.junitand.mockito.order.dto.Order;
 
 import java.sql.SQLException;
 
@@ -21,9 +21,9 @@ public class OrderBOImpl implements OrderBO {
         } catch (SQLException e) {
             throw new BOException(e);
         }
-
         return true;
     }
+
 
     @Override
     public boolean cancelOrder(int id) throws BOException {

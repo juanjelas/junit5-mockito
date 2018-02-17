@@ -1,4 +1,4 @@
-package jjsevi.junitand.mockito.dto;
+package jjsevi.junitand.mockito.order.dto;
 
 public class Order {
 
