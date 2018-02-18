@@ -54,7 +54,6 @@ class BillTest {
         bill.pay();
         verify(book).voidMethod();
         assertThrows(Exception.class, () -> bill.pay());
-        verify(book).voidMethod();
     }
 
 }
